@@ -1,7 +1,7 @@
 *PPD-Adobe: "4.3"
 *%=============================================================================
 *%
-*%  PPD file for Kyocera FS-1025MFP (Russian)
+*%  PPD file for Kyocera FS-1060DN (European English)
 *%  Linux Version
 *%
 *% (C) 2012 KYOCERA Document Solutions Inc.
@@ -35,17 +35,17 @@
 
 *FileVersion: "1.1203"
 *FormatVersion: "4.3"
-*LanguageEncoding: UTF-8
-*LanguageVersion: Russian
-*Product: "(FS-1025MFP)"
+*LanguageEncoding: ISOLatin1
+*LanguageVersion: English
+*Product: "(FS-1060DN)"
 *PSVersion: "(3011.103) 1"
 *Manufacturer: "Kyocera"
-*ModelName: "Kyocera FS-1025MFP KPSL"
-*ShortNickName: "Kyocera FS-1025MFP (KPSL)"
-*NickName: "Kyocera FS-1025MFP (KPSL)"
-*PCFileName: "KC1025RU.PPD"
+*ModelName: "Kyocera FS-1060DN KPSL"
+*ShortNickName: "Kyocera FS-1060DN (KPSL)"
+*NickName: "Kyocera FS-1060DN (KPSL)"
+*PCFileName: "KC1060EE.PPD"
 
-*1284DeviceID: "MDL:FS-1025MFP;MFG:Kyocera"
+*1284DeviceID: "MDL:FS-1060DN;MFG:Kyocera"
 
 *cupsVersion: 1.2
 *cupsManualCopies: False
@@ -197,23 +197,23 @@
 *UIConstraints: *PageRegion EnvDL *Duplex DuplexTumble
 *UIConstraints: *PageRegion EnvDL *Duplex DuplexNoTumble
 
-*OpenGroup: GraphicsOptions/Графика
+*OpenGroup: GraphicsOptions/Graphics
 
 *% Resolution 
-*OpenUI *Resolution/Разрешение: PickOne
+*OpenUI *Resolution/Resolution: PickOne
 *OrderDependency: 10 AnySetup *Resolution
 *DefaultResolution: 600dpi
 *Resolution 600dpi/600 dpi: "<< /HWResolution [600 600] /PreRenderingEnhance false >> setpagedevice"
 *CloseUI: *Resolution
 
 *% Color Model
-*OpenUI *ColorModel/Режим цветопередачи: PickOne
+*OpenUI *ColorModel/Color Mode: PickOne
 *OrderDependency: 10 AnySetup *ColorModel
 *DefaultColorModel: Gray
-*ColorModel Gray/Черно/белый: "<< /ProcessColorModel /DeviceGray /cupsColorOrder 0/cupsColorSpace 3/cupsBitsPerColor 8/cupsCompression 1 >> setpagedevice"
+*ColorModel Gray/Black & White: "<< /ProcessColorModel /DeviceGray /cupsColorOrder 0/cupsColorSpace 3/cupsBitsPerColor 8/cupsCompression 1 >> setpagedevice"
 *CloseUI: *ColorModel
 
-*CloseGroup: GraphicsOptions/Графика
+*CloseGroup: GraphicsOptions/Graphics
 
 *% Halftone Information 
 *DefaultHalftoneType: 1
@@ -252,12 +252,12 @@
 *PageSize Letter/Letter: "<< /Policies << /PageSize 7 >> /PageSize [612 792] /ImagingBBox null >> setpagedevice"
 *PageSize Legal/Legal: "<< /Policies << /PageSize 7 >> /PageSize [612 1008] /ImagingBBox null >> setpagedevice"
 *PageSize Executive/Executive: "<< /Policies << /PageSize 7 >> /PageSize [522 756] /ImagingBBox null >> setpagedevice"
-*PageSize EnvPersonal/Конверт #6: "<< /Policies << /PageSize 7 >> /PageSize [261 468] /ImagingBBox null >> setpagedevice"
-*PageSize Env9/Конверт #9: "<< /Policies << /PageSize 7 >> /PageSize [279 639] /ImagingBBox null >> setpagedevice"
-*PageSize Env10/Конверт #10: "<< /Policies << /PageSize 7 >> /PageSize [297 684] /ImagingBBox null >> setpagedevice"
-*PageSize EnvMonarch/Конверт Monarch: "<< /Policies << /PageSize 7 >> /PageSize [279 540] /ImagingBBox null >> setpagedevice"
-*PageSize EnvDL/Конверт DL: "<< /Policies << /PageSize 7 >> /PageSize [312 624] /ImagingBBox null >> setpagedevice"
-*PageSize EnvC5/Конверт C5: "<< /Policies << /PageSize 7 >> /PageSize [459 649] /ImagingBBox null >> setpagedevice"
+*PageSize EnvPersonal/Envelope #6: "<< /Policies << /PageSize 7 >> /PageSize [261 468] /ImagingBBox null >> setpagedevice"
+*PageSize Env9/Envelope #9: "<< /Policies << /PageSize 7 >> /PageSize [279 639] /ImagingBBox null >> setpagedevice"
+*PageSize Env10/Envelope #10: "<< /Policies << /PageSize 7 >> /PageSize [297 684] /ImagingBBox null >> setpagedevice"
+*PageSize EnvMonarch/Envelope Monarch: "<< /Policies << /PageSize 7 >> /PageSize [279 540] /ImagingBBox null >> setpagedevice"
+*PageSize EnvDL/Envelope DL: "<< /Policies << /PageSize 7 >> /PageSize [312 624] /ImagingBBox null >> setpagedevice"
+*PageSize EnvC5/Envelope C5: "<< /Policies << /PageSize 7 >> /PageSize [459 649] /ImagingBBox null >> setpagedevice"
 *CloseUI: *PageSize
 
 *% Page Region Definitions for Frame Buffer
@@ -272,12 +272,12 @@
 *PageRegion Letter/Letter: "<< /Policies << /PageSize 7 >> /PageSize [612 792] /ImagingBBox null >> setpagedevice"
 *PageRegion Legal/Legal: "<< /Policies << /PageSize 7 >> /PageSize [612 1008] /ImagingBBox null >> setpagedevice"
 *PageRegion Executive/Executive: "<< /Policies << /PageSize 7 >> /PageSize [522 756] /ImagingBBox null >> setpagedevice"
-*PageRegion EnvPersonal/Конверт #6: "<< /Policies << /PageSize 7 >> /PageSize [261 468] /ImagingBBox null >> setpagedevice"
-*PageRegion Env9/Конверт #9: "<< /Policies << /PageSize 7 >> /PageSize [279 639] /ImagingBBox null >> setpagedevice"
-*PageRegion Env10/Конверт #10: "<< /Policies << /PageSize 7 >> /PageSize [297 684] /ImagingBBox null >> setpagedevice"
-*PageRegion EnvMonarch/Конверт Monarch: "<< /Policies << /PageSize 7 >> /PageSize [279 540] /ImagingBBox null >> setpagedevice"
-*PageRegion EnvDL/Конверт DL: "<< /Policies << /PageSize 7 >> /PageSize [312 624] /ImagingBBox null >> setpagedevice"
-*PageRegion EnvC5/Конверт C5: "<< /Policies << /PageSize 7 >> /PageSize [459 649] /ImagingBBox null >> setpagedevice"
+*PageRegion EnvPersonal/Envelope #6: "<< /Policies << /PageSize 7 >> /PageSize [261 468] /ImagingBBox null >> setpagedevice"
+*PageRegion Env9/Envelope #9: "<< /Policies << /PageSize 7 >> /PageSize [279 639] /ImagingBBox null >> setpagedevice"
+*PageRegion Env10/Envelope #10: "<< /Policies << /PageSize 7 >> /PageSize [297 684] /ImagingBBox null >> setpagedevice"
+*PageRegion EnvMonarch/Envelope Monarch: "<< /Policies << /PageSize 7 >> /PageSize [279 540] /ImagingBBox null >> setpagedevice"
+*PageRegion EnvDL/Envelope DL: "<< /Policies << /PageSize 7 >> /PageSize [312 624] /ImagingBBox null >> setpagedevice"
+*PageRegion EnvC5/Envelope C5: "<< /Policies << /PageSize 7 >> /PageSize [459 649] /ImagingBBox null >> setpagedevice"
 *PageRegion OficioII/Oficio II: "<< /Policies << /PageSize 7 >> /PageSize [612 936] /ImagingBBox null >> setpagedevice"
 *PageRegion Folio/Folio (210 x 330mm): "<< /Policies << /PageSize 7 >> /PageSize [595 935] /ImagingBBox null >> setpagedevice"
 *PageRegion Statement/Statement: "<< /Policies << /PageSize 7 >> /PageSize [396 612] /ImagingBBox null >> setpagedevice"
@@ -300,12 +300,12 @@
 *ImageableArea Letter/Letter: "12 08 600 776"
 *ImageableArea Legal/Legal: "12 08 600 1000"
 *ImageableArea Executive/Executive: "12 08 510 748"
-*ImageableArea EnvPersonal/Конверт #6: "12 08 249 460"
-*ImageableArea Env9/Конверт #9: "12 08 267 631"
-*ImageableArea Env10/Конверт #10: "12 08 285 676"
-*ImageableArea EnvMonarch/Конверт Monarch: "12 08 267 532"
-*ImageableArea EnvDL/Конверт DL: "12 10 300 614"
-*ImageableArea EnvC5/Конверт C5: "12 10 447 639"
+*ImageableArea EnvPersonal/Envelope #6: "12 08 249 460"
+*ImageableArea Env9/Envelope #9: "12 08 267 631"
+*ImageableArea Env10/Envelope #10: "12 08 285 676"
+*ImageableArea EnvMonarch/Envelope Monarch: "12 08 267 532"
+*ImageableArea EnvDL/Envelope DL: "12 10 300 614"
+*ImageableArea EnvC5/Envelope C5: "12 10 447 639"
 *% Physical Dimensions of Media
 *DefaultPaperDimension: A4
 *PaperDimension A4/A4: "595 842"
@@ -321,12 +321,12 @@
 *PaperDimension Letter/Letter: "612 792"
 *PaperDimension Legal/Legal: "612 1008"
 *PaperDimension Executive/Executive: "522 756"
-*PaperDimension EnvPersonal/Конверт #6: "261 468"
-*PaperDimension Env9/Конверт #9: "279 639"
-*PaperDimension Env10/Конверт #10: "297 684"
-*PaperDimension EnvMonarch/Конверт Monarch: "279 540"
-*PaperDimension EnvDL/Конверт DL: "312 624"
-*PaperDimension EnvC5/Конверт C5: "459 649"
+*PaperDimension EnvPersonal/Envelope #6: "261 468"
+*PaperDimension Env9/Envelope #9: "279 639"
+*PaperDimension Env10/Envelope #10: "297 684"
+*PaperDimension EnvMonarch/Envelope Monarch: "279 540"
+*PaperDimension EnvDL/Envelope DL: "312 624"
+*PaperDimension EnvC5/Envelope C5: "459 649"
 
 *% Custom Page Size Definitions
 *% Smallest = A6, Largest = LEGAL
@@ -350,34 +350,34 @@
 *ParamCustomPageSize HeightOffset: 4 points 0 0
 *ParamCustomPageSize Orientation: 5 int 1 1
 
-*OpenGroup: MFFeedOptions/Ручная подача
+*OpenGroup: MFFeedOptions/Manual Feed
 
 *% Manual Feed Switch Definitions
-*OpenUI *Feeding/Ручная подача: PickOne
+*OpenUI *Feeding/Manual Feed: PickOne
 *OrderDependency: 40 AnySetup *Feeding
 *DefaultFeeding: Off
-*Feeding On/Вкл: ""
-*Feeding Off/Откл: ""
+*Feeding On/On: ""
+*Feeding Off/Off: ""
 *CloseUI: *Feeding
 
-*CloseGroup: MFFeedOptions/Ручная подача
+*CloseGroup: MFFeedOptions/Manual Feed
 
-*OpenGroup: SpeedOptions/Пониженной скорости
+*OpenGroup: SpeedOptions/Reduced speed mode
 
 *% Engine Speed Definitions
-*OpenUI *EngineSpeed/Пониженной скорости: PickOne
+*OpenUI *EngineSpeed/Reduced speed mode: PickOne
 *OrderDependency: 40 AnySetup *EngineSpeed
 *DefaultEngineSpeed: Off
-*EngineSpeed On/Вкл: ""
-*EngineSpeed Off/Откл: ""
+*EngineSpeed On/On: ""
+*EngineSpeed Off/Off: ""
 *CloseUI: *EngineSpeed
 
-*CloseGroup: SpeedOptions/Пониженной скорости
+*CloseGroup: SpeedOptions/Reduced speed mode
 
-*OpenGroup: CaBrightness/Яркость
+*OpenGroup: CaBrightness/Brightness
 
 *% Adjustment Definitions
-*OpenUI *CaBrightness/Яркость: PickOne
+*OpenUI *CaBrightness/Brightness: PickOne
 *OrderDependency: 11 AnySetup *CaBrightness
 *DefaultCaBrightness: 0
 *CaBrightness -100/-100: ""
@@ -403,12 +403,12 @@
 *CaBrightness 100/100: ""
 *CloseUI: *CaBrightness
 
-*CloseGroup: CaBrightness/Яркость
+*CloseGroup: CaBrightness/Brightness
 
-*OpenGroup: CaContrast/Контрастность
+*OpenGroup: CaContrast/Contrast
 
 *% Adjustment Definitions
-*OpenUI *CaContrast/Контрастность: PickOne
+*OpenUI *CaContrast/Contrast: PickOne
 *OrderDependency: 12 AnySetup *CaContrast
 *DefaultCaContrast: 0
 *CaContrast -100/-100: ""
@@ -434,40 +434,40 @@
 *CaContrast 100/100: ""
 *CloseUI: *CaContrast
 
-*CloseGroup: CaContrast/Контрастность
+*CloseGroup: CaContrast/Contrast
 
-*OpenGroup: MediaOptions/материала для печати
+*OpenGroup: MediaOptions/Media type
 
 *% MediaType Definitions
-*OpenUI *MediaType/материала для печати: PickOne
+*OpenUI *MediaType/Media type: PickOne
 *OrderDependency: 95 AnySetup *MediaType
 *DefaultMediaType: PrnDef
-*MediaType PrnDef/Автоматический выбор материала для печати: "<</cupsMediaType 0 >> setpagedevice"
-*MediaType Plain/Обычная бумага: "<</ManualFeed false /MediaType (Plain)/cupsMediaType 1 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Labels/Этикетки: "<</ManualFeed false /MediaType (Labels)/cupsMediaType 4 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Letterhead/Фирменные бланки: "<</ManualFeed false /MediaType (Letterhead)/cupsMediaType 9 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Bond/Бумага для документов: "<</ManualFeed false /MediaType (Bond)/cupsMediaType 5 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Color/Цветная бумага: "<</ManualFeed false /MediaType (Color)/cupsMediaType 10 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Preprinted/Печатные бланки: "<</ManualFeed false /MediaType (Preprinted)/cupsMediaType 3 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Prepunched/Перфорированная бумага: "<</ManualFeed false /MediaType (Prepunched)/cupsMediaType 11 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Recycled/Бумага из вторсырья: "<</ManualFeed false /MediaType (Recycled)/cupsMediaType 6 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Cardstock/Карточки: "<</ManualFeed false /MediaType (Card Stock)/cupsMediaType 13 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Vellum/Веленевая бумага: "<</ManualFeed false /MediaType (Vellum)/cupsMediaType 7 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Envelope/Конверт: "<</ManualFeed false /MediaType (Envelope)/cupsMediaType 12 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Rough/Шероховатая бумага: "<</ManualFeed false /MediaType (Rough)/cupsMediaType 8 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Thick/Плотная бумага: "<</ManualFeed false /MediaType (Thick)/cupsMediaType 16 /DeferredMediaSelection true >> setpagedevice"
-*MediaType Highqlty/Высокое качество: "<</ManualFeed false /MediaType (Fine)/cupsMediaType 17 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User1/Пользовательский тип 1: "<</ManualFeed false /MediaType (Custom Type1)/cupsMediaType 21 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User2/Пользовательский тип 2: "<</ManualFeed false /MediaType (Custom Type2)/cupsMediaType 22 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User3/Пользовательский тип 3: "<</ManualFeed false /MediaType (Custom Type3)/cupsMediaType 23 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User4/Пользовательский тип 4: "<</ManualFeed false /MediaType (Custom Type4)/cupsMediaType 24 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User5/Пользовательский тип 5: "<</ManualFeed false /MediaType (Custom Type5)/cupsMediaType 25 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User6/Пользовательский тип 6: "<</ManualFeed false /MediaType (Custom Type6)/cupsMediaType 26 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User7/Пользовательский тип 7: "<</ManualFeed false /MediaType (Custom Type7)/cupsMediaType 27 /DeferredMediaSelection true >> setpagedevice"
-*MediaType User8/Пользовательский тип 8: "<</ManualFeed false /MediaType (Custom Type8)/cupsMediaType 28 /DeferredMediaSelection true >> setpagedevice"
+*MediaType PrnDef/Auto media selection: "<</cupsMediaType 0 >> setpagedevice"
+*MediaType Plain/Plain: "<</ManualFeed false /MediaType (Plain)/cupsMediaType 1 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Labels/Labels: "<</ManualFeed false /MediaType (Labels)/cupsMediaType 4 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Letterhead/Letterhead: "<</ManualFeed false /MediaType (Letterhead)/cupsMediaType 9 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Bond/Bond: "<</ManualFeed false /MediaType (Bond)/cupsMediaType 5 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Color/Color: "<</ManualFeed false /MediaType (Color)/cupsMediaType 10 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Preprinted/Preprinted: "<</ManualFeed false /MediaType (Preprinted)/cupsMediaType 3 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Prepunched/Prepunched: "<</ManualFeed false /MediaType (Prepunched)/cupsMediaType 11 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Recycled/Recycled: "<</ManualFeed false /MediaType (Recycled)/cupsMediaType 6 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Cardstock/Cardstock: "<</ManualFeed false /MediaType (Card Stock)/cupsMediaType 13 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Vellum/Vellum: "<</ManualFeed false /MediaType (Vellum)/cupsMediaType 7 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Envelope/Envelope: "<</ManualFeed false /MediaType (Envelope)/cupsMediaType 12 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Rough/Rough: "<</ManualFeed false /MediaType (Rough)/cupsMediaType 8 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Thick/Thick: "<</ManualFeed false /MediaType (Thick)/cupsMediaType 16 /DeferredMediaSelection true >> setpagedevice"
+*MediaType Highqlty/High quality: "<</ManualFeed false /MediaType (Fine)/cupsMediaType 17 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User1/Custom type 1: "<</ManualFeed false /MediaType (Custom Type1)/cupsMediaType 21 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User2/Custom type 2: "<</ManualFeed false /MediaType (Custom Type2)/cupsMediaType 22 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User3/Custom type 3: "<</ManualFeed false /MediaType (Custom Type3)/cupsMediaType 23 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User4/Custom type 4: "<</ManualFeed false /MediaType (Custom Type4)/cupsMediaType 24 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User5/Custom type 5: "<</ManualFeed false /MediaType (Custom Type5)/cupsMediaType 25 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User6/Custom type 6: "<</ManualFeed false /MediaType (Custom Type6)/cupsMediaType 26 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User7/Custom type 7: "<</ManualFeed false /MediaType (Custom Type7)/cupsMediaType 27 /DeferredMediaSelection true >> setpagedevice"
+*MediaType User8/Custom type 8: "<</ManualFeed false /MediaType (Custom Type8)/cupsMediaType 28 /DeferredMediaSelection true >> setpagedevice"
 *CloseUI: *MediaType
 
-*CloseGroup: MediaOptions/материала для печати
+*CloseGroup: MediaOptions/Media type
 
 *RequiresPageRegion All: True
 
@@ -621,5 +621,4 @@
 *Source: "LocalTalk"
 *Source: "Option"
 
-*%  End of PPD file for Kyocera FS-1025MFP (Russian)
-
+*%  End of PPD file for Kyocera FS-1060DN (European English)

@@ -21,14 +21,14 @@ _(**Note**: currently there is only one entry (for Debian and Devuan), and it's 
 
 #### Devuan|Debian
 
-* `libcupsimage2-dev`
-* `libcups2-dev`
+* `libcupsimage2-dev` `apt install libcupsimage2-dev`
+* `libcups2-dev` `apt install libcups2-dev`
 
 # Instructions
 
 1. Run `cmake -B_build -H.` to generate nessesary files  _(**Note**: there are cmake variables listed at the end of the section)_;
 2. Run `cmake --build _build/` to build all cmake targets, the resulting binaries are located in `bin/` subdirectory.
-3. Run `./install.sh` to install PPD files and the newly built filter.
+3. Run `scripts/install.sh` if need install PPD files and the newly built filter.
 
 ### Cmake variables
 
